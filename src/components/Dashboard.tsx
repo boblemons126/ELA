@@ -67,11 +67,11 @@ const Dashboard = () => {
                   <span className="sr-only">Home</span>
                 </Link>
                 <div>
-                  <h1 className="text-3xl font-bold text-white">Dashboard</h1>
-                  <p className="text-blue-200">Welcome to your personal assistant</p>
+                  <h1 className="text-3xl font-bold text-white">Welcome Back!</h1>
+                  <p className="text-blue-200">Everyday Living Assistant - ELA</p>
                 </div>
               </div>
-              <TimeWidget />
+              <TimeWidget currentTime={currentTime} />
             </div>
           </header>
 
