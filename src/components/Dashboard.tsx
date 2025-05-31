@@ -42,14 +42,14 @@ const Dashboard = () => {
 
         {/* Main Dashboard Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-8">
-          {/* Weather Widget - Takes up 2 columns on larger screens */}
+          {/* Calendar Widget - Takes up 2 columns on larger screens */}
           <div className="lg:col-span-2">
-            <WeatherWidget />
+            <CalendarWidget />
           </div>
 
-          {/* Calendar Widget */}
+          {/* Weather Widget */}
           <div className="lg:col-span-1">
-            <CalendarWidget />
+            <WeatherWidget />
           </div>
 
           {/* News Widget - Takes up remaining space */}
