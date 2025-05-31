@@ -6,6 +6,7 @@ import NewsWidget from './NewsWidget';
 import CalendarWidget from './CalendarWidget';
 import TimeWidget from './TimeWidget';
 import StatsOverview from './StatsOverview';
+import ApplicationsList from './ApplicationsList';
 
 const Dashboard = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -134,6 +135,11 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Applications List */}
+        <div className="mt-8">
+          <ApplicationsList />
         </div>
       </div>
     </div>
