@@ -1,4 +1,3 @@
-
 import { Calendar, Home, List, Thermometer, Newspaper, Settings } from 'lucide-react';
 import {
   Sidebar,
